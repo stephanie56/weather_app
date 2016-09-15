@@ -1,0 +1,79 @@
+/*
+weather icons: https://erikflowers.github.io/weather-icons/
+color inspiration: https://dribbble.com/shots/2261836-Weather-App
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,300italic,800);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800,900);
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #fff;
+  background: linear-gradient(-45deg, #9BD8D3, #B192B1);
+}
+
+#weatherApp {
+  width: 400px;
+  height: 400px;
+  color: #ED8A85;
+  background-color: #FAE2C8;
+  border: solid 10px #ED8A85;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+#icon {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  font-size: 7.5em;
+  margin-top: 50px;
+}
+
+#city {
+  font-weight: 800;
+  font-size: 3em;
+  line-height: 0.6em;
+  font-family: "Raleway";
+}
+
+#description {
+  color: #777;
+  font-size: 1.2em;
+}
+
+#credit {
+  text-align: center;
+  margin: 40px;
+}
+
+#convert_button {
+  text-align:center;
+  padding:30px
+}
+
+.convert {
+  margin-right:10px;
+  margin-bottom: 10px;
+  background-color:#ED8A85;
+  border:2px solid #ED8A85;
+  color:#fff;
+}
+
+.convert:hover,
+.convert:visited {
+  border:2px solid #FAE2C8;
+  color:#fff;
+}
+
+.convert:active,
+.convert:focus
+{
+   border-color:#b192b1;
+}

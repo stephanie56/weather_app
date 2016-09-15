@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Weather App</title>
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css" >
+	<link rel="stylesheet" href="css/owfont-regular.css" media="screen">
+</head>
+
+<body>
+
+	<div class="container">
+
+  <div class="row">
+    <div class="col-sm-8 col-sm-offset-2">
+      <div id="weatherApp">
+        <div id="icon"></div>
+        <!--<div id="icon" ></div>-->
+        <h1 id="city"></h1>
+        <h1><span id="temp"></span> / <span id="weather"></span></h1>
+        <h3 id="description"></h3>
+      </div>
+      <!-- #weatherApp ends -->
+    </div>
+  </div>
+
+  <div id="convert_button">
+    <button id="convert_c" class="btn btn-lg convert">Celsius</button>
+    <button id="convert_f" class="btn btn-lg convert">Fahrenheit </button>
+  </div>
+  <!--convert buttons-->
+
+  <div id="credit">Written by Stephanie Zeng / A Free Code Camp Project</div>
+
+</div>
+<!-- container -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="assets/js/main.js" charset="utf-8"></script>
+
+</body>
+</html>
